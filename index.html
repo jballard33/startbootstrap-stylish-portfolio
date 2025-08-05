@@ -16,6 +16,9 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    
+    <!-- Claude AI Chat CSS -->
+    <link href="css/claude-chat.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -54,6 +57,9 @@
             </li>
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" onclick="window.claudeIntegration && window.claudeIntegration.toggleChat(); $('#menu-close').click();">Chat with AI</a>
             </li>
         </ul>
     </nav>
@@ -342,6 +348,9 @@
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
+
+    <!-- Claude AI Integration -->
+    <script src="js/claude-integration.js"></script>
 
 </body>
 
