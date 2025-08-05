@@ -1,0 +1,15 @@
+{
+  "name": "stylish-portfolio-claude",
+  "version": "1.0.0",
+  "description": "Bootstrap portfolio with Claude AI integration",
+  "main": "js/claude-integration.js",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["bootstrap", "portfolio", "claude-ai", "chatbot"],
+  "author": "Your Name",
+  "license": "MIT"
+}
